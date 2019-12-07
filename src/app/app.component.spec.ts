@@ -1,3 +1,5 @@
+import { BoardComponent } from './board/board.component';
+import { SquareComponent } from '../app/square/square.component';
 import { TestBed, async } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
 import { AppComponent } from './app.component';
@@ -9,7 +11,9 @@ describe('AppComponent', () => {
         RouterTestingModule
       ],
       declarations: [
-        AppComponent
+        AppComponent,
+        SquareComponent,
+        BoardComponent
       ],
     }).compileComponents();
   }));

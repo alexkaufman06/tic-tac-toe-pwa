@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --output-path docs --base-href /tic-tac-toe-pwa/",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -19,7 +19,9 @@
     "@angular/forms": "~8.0.1",
     "@angular/platform-browser": "~8.0.1",
     "@angular/platform-browser-dynamic": "~8.0.1",
+    "@angular/pwa": "^0.803.20",
     "@angular/router": "~8.0.1",
+    "@angular/service-worker": "~8.0.1",
     "@nebular/eva-icons": "4.6.0",
     "@nebular/theme": "^4.6.0",
     "eva-icons": "^1.1.2",

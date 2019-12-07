@@ -3,9 +3,11 @@ import { Component, Input } from '@angular/core';
 @Component({
   selector: 'app-square',
   template: `
-    <h2>{{ value }}</h2>
+    <button class="square" nbButton *ngIf="!value">{{ value }}</button>
+    <button class="sqaure" nbButton hero statue="success" *ngIf="value == 'X'">{{ value }}</button>
+    <button class="sqaure" nbButton hero statue="info" *ngIf="value == 'O'">{{ value }}</button>
   `,
-  styles: []
+  styles: ['./square.component.scss']
 })
 export class SquareComponent {
   @Input() value: 'X' | 'O';

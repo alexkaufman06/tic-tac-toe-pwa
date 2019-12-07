@@ -5,6 +5,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SquareComponent } from './square/square.component';
 import { BoardComponent } from './board/board.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NbThemeModule, NbLayoutModule, NbButtonModule } from '@nebular/theme';
+import { NbEvaIconsModule } from '@nebular/eva-icons';
 
 @NgModule({
   declarations: [
@@ -14,11 +17,16 @@ import { BoardComponent } from './board/board.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    NbThemeModule.forRoot({ name: 'cosmic' }),
+    NbLayoutModule,
+    NbEvaIconsModule,
+    NbButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
 
-// 15:54 of https://www.youtube.com/watch?v=G0bBLvWXBvc
+// 15:54 => 18 of https://www.youtube.com/watch?v=G0bBLvWXBvc

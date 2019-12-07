@@ -5,11 +5,36 @@
   <title>TicTacToePWA</title>
   <base href="/">
   <style>
-  app-square > button {
-    width: 200px;
-    height: 200px;
-    font-size: 100px !important;
-  }
+    app-square > button {
+      width: 200px;
+      height: 200px;
+      font-size: 100px !important;
+    }
+
+    @media (max-width: 400px){
+      h1 {
+        font-size: 20px !important;
+        text-align: center;
+      }
+
+      app-board > button {
+        margin-left: 33%;
+      }
+
+      app-square > button {
+        width: 100px;
+        height: 100px;
+        font-size: 75px !important;
+      }
+
+      main {
+        margin-left: 6%;
+      }
+
+      body > app-root > nb-layout > div > div > nb-layout-header > nav > h1 {
+        margin-left: 6%;
+      }
+    }
   </style>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">

@@ -41,7 +41,7 @@ module.exports = "<nb-layout>\n\n  <nb-layout-header fixed>\n    <h1>Welcome to 
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<h1 *ngIf=\"!winner\">Current Player: {{ player }} </h1>\n<h2 *ngIf=\"winner\">Player {{ winner }} won the game!</h2>\n<button nbButton outline status=\"danger\" (click)=\"newGame()\">New Game</button>\n<br><br>\n<main>\n  <app-square\n    *ngFor=\"let val of squares; let i = index\"\n    [value]=\"val\"\n    (click)=\"makeMove(i)\">\n\n  </app-square>\n</main>"
+module.exports = "<h1 *ngIf=\"!winner\">Current Player: {{ player }} </h1>\n<h1 *ngIf=\"winner\">Player {{ winner }} won the game!</h1>\n<button nbButton outline status=\"danger\" (click)=\"newGame()\">New Game</button>\n<br><br>\n<main>\n  <app-square\n    *ngFor=\"let val of squares; let i = index\"\n    [value]=\"val\"\n    (click)=\"makeMove(i)\">\n\n  </app-square>\n</main>"
 
 /***/ }),
 
@@ -284,9 +284,9 @@ SquareComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-square',
         template: `
-    <button class="square" nbButton *ngIf="!value">{{ value }}</button>
-    <button class="sqaure" nbButton hero statue="success" *ngIf="value == 'X'">{{ value }}</button>
-    <button class="sqaure" nbButton hero statue="info" *ngIf="value == 'O'">{{ value }}</button>
+    <button class="square" *ngIf="!value">{{ value }}</button>
+    <button class="sqaure" statue="success" *ngIf="value == 'X'">{{ value }}</button>
+    <button class="sqaure" statue="info" *ngIf="value == 'O'">{{ value }}</button>
   `,
         styles: ["./square.component.scss"]
     })

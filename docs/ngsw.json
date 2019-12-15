@@ -1,0 +1,78 @@
+{
+  "configVersion": 1,
+  "timestamp": 1576448972717,
+  "index": "/tic-tac-toe-pwa/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/tic-tac-toe-pwa/favicon.ico",
+        "/tic-tac-toe-pwa/index.html",
+        "/tic-tac-toe-pwa/main-es2015.3838711e49344e850179.js",
+        "/tic-tac-toe-pwa/main-es5.c6e275a4d41c4b2812b6.js",
+        "/tic-tac-toe-pwa/polyfills-es2015.5728f680576ca47e99fe.js",
+        "/tic-tac-toe-pwa/polyfills-es5.7f43b971448d2fb49202.js",
+        "/tic-tac-toe-pwa/runtime-es2015.858f8dd898b75fe86926.js",
+        "/tic-tac-toe-pwa/runtime-es5.741402d1d47331ce975c.js",
+        "/tic-tac-toe-pwa/styles.94c501b0fabee7eda16e.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/tic-tac-toe-pwa/assets/icons/icon-128x128.png",
+        "/tic-tac-toe-pwa/assets/icons/icon-144x144.png",
+        "/tic-tac-toe-pwa/assets/icons/icon-152x152.png",
+        "/tic-tac-toe-pwa/assets/icons/icon-192x192.png",
+        "/tic-tac-toe-pwa/assets/icons/icon-384x384.png",
+        "/tic-tac-toe-pwa/assets/icons/icon-512x512.png",
+        "/tic-tac-toe-pwa/assets/icons/icon-72x72.png",
+        "/tic-tac-toe-pwa/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/tic-tac-toe-pwa/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/tic-tac-toe-pwa/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/tic-tac-toe-pwa/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/tic-tac-toe-pwa/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/tic-tac-toe-pwa/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/tic-tac-toe-pwa/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/tic-tac-toe-pwa/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/tic-tac-toe-pwa/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/tic-tac-toe-pwa/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "/tic-tac-toe-pwa/index.html": "36b744c9d697709aeafc60aace5fa33478cbc600",
+    "/tic-tac-toe-pwa/main-es2015.3838711e49344e850179.js": "f18982bf505ca5574962f277f15d67cf55295da2",
+    "/tic-tac-toe-pwa/main-es5.c6e275a4d41c4b2812b6.js": "98c282da2a78e67b5c2c0a3bad6fd8d5bda40cd2",
+    "/tic-tac-toe-pwa/polyfills-es2015.5728f680576ca47e99fe.js": "77f974dd2b186031cfc4f4526d96db4efcd39353",
+    "/tic-tac-toe-pwa/polyfills-es5.7f43b971448d2fb49202.js": "f84a71ef6c7a788b5fe701bf2405313d7766a66d",
+    "/tic-tac-toe-pwa/runtime-es2015.858f8dd898b75fe86926.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "/tic-tac-toe-pwa/runtime-es5.741402d1d47331ce975c.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "/tic-tac-toe-pwa/styles.94c501b0fabee7eda16e.css": "a4ec85c7923db6b075b96720298ad357c4ca4b7a"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
